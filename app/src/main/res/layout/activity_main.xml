@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. danlu.com Co.Ltd. All rights reserved.
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="cn.anaction.picturetaker.MainActivity">
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/accb_iscrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否裁剪"/>
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拍照"/>
+
+    <Button
+        android:id="@+id/btn_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="从图库中获取"/>
+
+    <Button
+        android:id="@+id/btn_document"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="从文档中获取"/>
+
+    <Button
+        android:id="@+id/btn_getpicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取所有图片路径（仿微信多图选择）"/>
+
+</LinearLayout>

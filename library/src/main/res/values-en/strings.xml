@@ -1,0 +1,9 @@
+<!--
+  ~ Copyright (c) 2017. danlu.com Co.Ltd. All rights reserved.
+  -->
+
+<resources>
+    <string name="app_name">picture-library</string>
+
+    <string name="tip_no_camera">No camera</string>
+</resources>
